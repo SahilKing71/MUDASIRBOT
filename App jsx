@@ -1,0 +1,15 @@
+import React from 'react';
+
+function App() {
+  const message = "Hello from React Project 2!";
+  
+  return (
+    <div style={{ padding: '40px', textAlign: 'center', backgroundColor: '#fff3e0', color: '#ff6f00' }}>
+      <h1>{message}</h1>
+      <p>Yeh project Vercel par **Root Directory: project-2-react** ke saath deploy hoga.</p>
+      <p>Yeh ek minimal React (Vite) application hai.</p>
+    </div>
+  );
+}
+
+export default App;
